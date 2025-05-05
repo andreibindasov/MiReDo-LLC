@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  html{
+      font-size: 62.5%;
+      user-select: none;
+      scroll-behavior: smooth;
+  }
+  
+
+  /* Section 1 */
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(233, 233, 233, 0.66), rgba(248, 248, 248, 0.88)), url(images/doremi-2.jpg) no-repeat;
+    background-size: cover;
+    /* background-blend-mode: overlay; */
+    position: relative;
+    user-select: none;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(233, 233, 233, 0.66), rgba(248, 248, 248, 0.88)), url(images/bg.jpg) no-repeat;
+    background-size: cover;
+    opacity: .6;
+}
+.banner{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.banner-heading{
+    margin-bottom: 4rem;
+    height: 20rem;
+    perspective: 50rem;
+    overflow: hidden;
+}
+  /*  */
+
+  /* Section 2 */
+.section-2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #a59f9f; */
+    background: linear-gradient(rgba(129, 125, 125, 0.66), rgba(189, 185, 185, 0.88)), url(images/doremi-2.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 9rem;
+    position: relative;
+}
+
+.section-heading{
+    font-size: 11rem;
+    font-weight: 300;
+    color: #ddd;
+    margin-right: 4rem;
+}
+/*  */
+
+/* Section 3 */
+.section-3{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #94aedb; */
+    background: linear-gradient(rgba(163, 199, 233, 0.66), rgba(194, 208, 236, 0.88)), url(images/doremi-2.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 9rem;
+    position: relative;
+}
+/*  */
+
+/* Section 4 */
+.section-4{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #7a7a9e; */
+    background: linear-gradient(rgba(165, 149, 236, 0.66), rgba(199, 186, 248, 0.88)), url(images/doremi-2.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+    position: relative;
+}
+/*  */
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 12rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+  }
+  
+  .copyright{
+    /* position: absolute; */
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: .27rem;
+    color: #a7a7a7;
+    /* bottom: 3rem;
+    padding-top: 6rem; */
+    /* width: 100%; */
+    text-align: center;
+  }
+  .copyright span{
+    color: #c29525;
+    margin-right: 1rem;
+    font-size: 3rem;
+  }
+  .copyright span img{
+    width: .6rem;
+    fill: #c29525 !important;
+    filter: invert(50%) sepia(100%) ; 
+    /*saturate(10%) hue-rotate(180deg)*/
+  
+  }
