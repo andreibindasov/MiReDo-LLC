@@ -206,22 +206,140 @@
 
   /* Section 2 */
 .section-2{
-    width: 100%;
-    height: 100vh;
-    /* background-color: #a59f9f; */
-    background: linear-gradient(rgba(129, 125, 125, 0.66), rgba(189, 185, 185, 0.88)), url(images/doremi-2.jpg) no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    padding: 0 9rem;
+    padding: 5rem 0 10rem 0;
     position: relative;
 }
 
 .section-heading{
-    font-size: 11rem;
-    font-weight: 300;
-    color: #ddd;
-    margin-right: 4rem;
+    font-size: 8rem;
+    color: var(--primary-color);
+    margin-bottom: 8rem;
+    text-shadow: 0 .1rem .2rem var(--primary-color);
+    font-family: "Vollkorn", sans-serif;
+    text-align: center;
+}
+
+.cards-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 36rem;
+  position: relative;
+  perspective: 150rem;
+}
+
+.card-image{
+  width: 100%;
+  height: 23rem;
+  border-radius: .3rem .3rem 0 0;
+  
+}
+
+.front-side{
+  text-align: center;
+  background-color: var(--white-color);
+  box-shadow: 0 .5rem 2rem #aaa;
+  border-radius: .3rem;
+  position: relative;
+  z-index: 11;
+  transition: opacity .4s, transform .4s, box-shadow .4s;
+}
+
+.change>.front-side{
+  transform: translateZ(-6rem) translateX(3rem);
+  box-shadow: 0 2rem 4rem #777;
+  opacity: .5;
+  z-index: 0;
+}
+
+.goal-name{
+  font-family: "Voltaire", sans-serif;
+  font-weight: 600;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 15rem;
+  right: 1.5rem;
+  color: var(--white-color);
+  text-shadow: 0 .1rem .3rem #000;
+  letter-spacing: .3rem;
+  background: linear-gradient(to right, rgba(18, 113, 255, .66), rgba(18, 113, 255, .33));
+  padding: 1rem;
+}
+
+.card-list{
+  width: 88%;
+  margin: auto;
+  padding: 2rem 0 3rem 0;
+}
+.card-list-item{
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--light-grey-color);
+  margin: 2rem 0;
+  border-bottom: .1rem solid var(--primary-color);
+  padding-bottom: 1.5rem;
+}
+
+.back-side{
+  position: absolute;
+  top: 0;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 100%;
+  border-radius: .3rem;
+  box-shadow: 0 2rem 4rem #777;
+  flex-direction: column;
+  transform: translateZ(-6rem) translateX(3rem);
+  opacity: .5;
+  transition: opacity .4s, transform .4s, box-shadow .4s;
+}
+
+.change>.back-side{
+  transform: translateZ(0) translateX(0);
+  box-shadow: 0 .5rem 2rem #aaa;
+  opacity: .9;
+  
+}
+
+
+.goal-details{
+  font-size: 1.8rem;
+  text-indent: 3rem;
+  text-align: justify; 
+  word-wrap: unset;
+  color: var(--white-color);
+  margin-bottom: 3rem;
+  padding: 0 3rem;
+  letter-spacing: .2rem;
+  font-weight: 100;
+}
+.card-button{
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  border: none;
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  letter-spacing: .2rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.nav-button{
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+  padding: .5rem;
+  background-color: rgba(255,255,255,.8);
+  color: var(--light-grey-color);
+  border-radius: .3rem;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: .2rem;
+  cursor: pointer;
 }
 /*  */
 
