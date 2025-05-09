@@ -6,7 +6,7 @@ Quality Improvement:
 Equity in Care: 
     Ensuring that healthcare services meet the broad health and social needs of diverse populations is crucial. L.A. Care's goal is to maximize care for its members within funding constraints, through successful implementation of Enhanced Care Management (ECM) and Community Supports for specified populations.
 Patient-Centered Care: 
-    This goal focuses on providing care that is respectful of and responsive to individual patient preferences, needs, and values. It involves effective communication and collaboration with patients and their families to ensure that decisions respect patient values and preferences.
+    Focusing on providing care that is respectful of and responsive to individual patient preferences, needs, and values. It involves effective communication and collaboration with patients and their families to ensure that decisions respect patient values and preferences.
 
 
 1. Quality Improvement
@@ -27,3 +27,9 @@ Communication: Foster open and effective communication between healthcare provid
 Shared Decision-Making: Encourage shared decision-making by providing patients with the information and support they need to make informed choices about their care.
 Patient Feedback: Actively solicit and incorporate patient feedback to improve the quality of care and patient satisfaction.
 Personalized Care Plans: Develop and implement personalized care plans that address the unique needs and preferences of each patient.
+
+
+Improved Health: Ensuring that healthcare services lead to better health outcomes for patients, as recommended by the NCQA and other quality assurance programs.
+Enhanced Provider Capabilities: Supporting healthcare providers in developing and maintaining high-quality care practices through ongoing training and support.
+Understanding System Obstacles: Identifying and addressing broad systemic issues that hinder the delivery of high-quality care, as part of an ongoing evaluation of the quality assurance program.
+These visions align with the goals of quality assurance programs in healthcare, aiming to not only improve patient health but also to enhance the capabilities of healthcare providers and address systemic barriers to quality care.
