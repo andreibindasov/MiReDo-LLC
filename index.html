@@ -16,10 +16,33 @@
     
 
     <div class="container">
+        <!-- Navbar -->
+        <div class="open-navbar-icon navbar-icon center">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div> 
+        <div class="navbar-wrapper">
+            <nav class="navbar">
+              <div class="close-navbar-icon navbar-icon center">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+              </div>  
+              <div class="nav-list">
+                <a href="#" class="nav-link center">Home</a>
+                <a href="#goals" class="nav-link center">Goals</a>
+                <a href="#vision" class="nav-link center">Vision</a>
+                <a href="#goals" class="nav-link center">Offer</a>
+                <a href="#contact" class="nav-link center">Contact</a>
+              </div>
+            </nav>
+        </div>
+         <!--  -->
+
         <!-- Section 1 -->
         <!-- <section class="section-1" id="home">
             <div class="overlay"></div> -->
-            <header class="header center">
+            <header class="header center" id="#">
                 <div class="header-text">
                     <h1 class="heading">MiReDo, LLC</h1>
                     <p class="header-paragraph">Our Quality Assurance Services is but the Music for Your Business</p>
@@ -38,8 +61,8 @@
             </header>
         <!-- </section> -->
         <!-- Sectrion 2 -->
-        <section class="section-2" id="about-us">
-            <h1 class="section-heading">GOAL$</h1>
+        <section class="section-2" id="goals">
+            <h1 class="section-heading">GOALS</h1>
             <div class="logo">
                 <h1>
                     <span class="center"><img src="/images/miredo.png" alt="mi" class=""></span>
@@ -73,11 +96,11 @@
                         <img src="images/card-2.png" alt="miredo" class="card-image">
                         <h1 class="goal-name">Equity in Care</h1>
                         <ul class="card-list">
-                            <li class="card-list-item">Data Collection and Analysis</li>
-                            <li class="card-list-item">Standardization of Care</li>
-                            <li class="card-list-item">Performance Metrics</li>
-                            <li class="card-list-item">Root Cause Analysis</li>
-                            <li class="card-list-item">Continuous Education and Training</li>
+                            <li class="card-list-item">Cultural Competency</li>
+                            <li class="card-list-item">Access to Care</li>
+                            <li class="card-list-item">Health Literacy</li>
+                            <li class="card-list-item">Community Engagement</li>
+                            <li class="card-list-item">Health Disparities Monitoring</li>
                         </ul>
                         <button class="nav-button">details &gt;&gt;</button>
                     </div>
@@ -95,11 +118,11 @@
                         <img src="images/card-3.jpg" alt="miredo" class="card-image">
                         <h1 class="goal-name">Patient-Centered Care</h1>
                         <ul class="card-list">
-                            <li class="card-list-item">Data Collection and Analysis</li>
-                            <li class="card-list-item">Standardization of Care</li>
-                            <li class="card-list-item">Performance Metrics</li>
-                            <li class="card-list-item">Root Cause Analysis</li>
-                            <li class="card-list-item">Continuous Education and Training</li>
+                            <li class="card-list-item">Patient Engagement</li>
+                            <li class="card-list-item">Communication</li>
+                            <li class="card-list-item">Shared Decision-Making</li>
+                            <li class="card-list-item">Patient Feedback</li>
+                            <li class="card-list-item">Personalized Care Plans</li>
                         </ul>
                         <button class="nav-button">details &gt;&gt;</button>
                     </div>
@@ -116,12 +139,7 @@
         
         <!-- Section 3 -->
         <section class="section-3" id="vision">
-            <h1 class="section-heading">VI$ION</h1>
-            <div class="logo">
-                <h1>
-                    <span class="center"><img src="/images/miredo.png" alt="mi" class=""></span>
-                </h1>
-            </div>
+            
             <div class="video-container">
                 <video class="bg-video" autoplay muted loop>
                     <source src="images/video-4.mp4" type="video/mp4"/>
@@ -129,6 +147,12 @@
             </div>
             
             <div class="vision-wrapper">
+                <h1 class="section-heading contact-h1">VISION</h1>
+                <div class="logo">
+                    <h1>
+                        <span class="center"><img src="/images/miredo.png" alt="mi" class=""></span>
+                    </h1>
+                </div>
                 <div class="vision-bg">
                     <div class="vision">
                         <img src="images/bg-consult-1.jpg" alt="vision" class="vision-img">
@@ -171,11 +195,44 @@
             </div>
         </section>
         <section class="section-4" id="contact">
-            <h1 class="section-heading">Contact</h1>
+            <h1 class="section-heading contact-h1">CONTACT US</h1>
+            <div class="logo">
+                <h1>
+                    <span class="center"><img src="/images/miredo.png" alt="mi" class=""></span>
+                </h1>
+            </div>
+            <form action="#" class="contact-form center">
+                <div class="input-group">
+                    <label>Full Name *</label>
+                    <input type="text" class="contact-input" placeholder="Enter Your Name" required>
+                </div>
+                <div class="input-groups">
+                    <div class="input-group">
+                        <label>Email *</label>
+                        <input type="email" class="contact-input" placeholder="Enter Your Email" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input type="text" class="contact-input" placeholder="Enter Phone Number">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Message</label>
+                    <textarea class="form-textarea" placeholder="Your Message Here..."></textarea>
+                </div>
+                <input type="submit" value="Submit" class="form-btn">
+            </form>
         </section>
         
         <!-- Footer -->
          <footer class="footer">
+            <div class="footer-list">
+                <a href="#" class="footer-link">Home</a>
+                <a href="#goals" class="footer-link">Goals</a>
+                <a href="#vision" class="footer-link">Vision</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            
             <p class="copyright">
                 by <span>φ</span>Andrei A<span><img src="/images/dot-circle.svg"/></span>Bindasov. [2025]. All Rights Reserved.
             </p>
